@@ -49,7 +49,7 @@ def create_byseason_changes_df(df):
 
     return season_changes
 
-byhour_bike_df = pd.read_csv('dashboard\hour_bike_df.csv')
+byhour_bike_df = pd.read_csv('dashboard/hour_bike_df.csv')
 byhour_bike_df['dteday'] = pd.to_datetime(byhour_bike_df['dteday'])
 
 # Membuat komponen filter
