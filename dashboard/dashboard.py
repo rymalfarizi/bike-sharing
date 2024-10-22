@@ -77,7 +77,7 @@ byseason_changes_df = create_byseason_changes_df(main_df)
 
 # Melengkapi dashboard dengan berbagai visualisasi data
 # Header
-st.header('Bike Sharing System :sparkles:')
+st.header('Bike Sharing Report :sparkles:')
 # informasi daily
 st.subheader('Number of Cycles')
 
